@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="Page1_master.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css"/>
+  </head>
+  <body>
+    <h1>Using HTML and CSS</h1>
+
+    <h2 class="head">What is Lorem Ipsum?</h2>
+
+    <p class="text"><b><i>Lorem Ipsum</i></b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <!--LISTS-->
+    <h2 class="head">List:</h2>
+    <ol class="text">
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+      <ul>
+        <li>first</li>
+        <li>second</li>
+      </ul>
+    </ol>
+
+    <!--PICTURES and LINKS-->
+    <div class="block_one">
+      <img src="https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png"
+      alt="Uh oh. Image not found." width=20% height=20% align='left'>
+      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). You can find text <a href="https://www.lipsum.com/">here</a></p>
+    </div>
+
+    <!--TABLES-->
+    <table width="400" height="100" border="3" bgcolor="#595A4A" align='center'>
+      <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+      </thead>
+      <tr>
+        <td>14</td>
+        <td>red</td>
+        <td>uk</td>
+      </tr>
+      <tr>
+        <td rowspan="2" align='center'>24</td>
+        <td>green</td>
+        <td>usa</td>
+      </tr>
+      <tr>
+        <td>yellow</td>
+        <td>ua</td>
+      </tr>
+    </table>
+
+    <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+
+    <!--FORMS-->
+    <form class="text">
+      <h2 class="head">Forms</h2>
+      <p> What wuold you prefer:</p>
+      <input type="checkbox" name="fotoshop" value="yes" checked>
+      Photoshop <br>
+      <input type="checkbox" name="dreamweaver" value="yes">
+      Adobe Dreamweaver <br>
+      <input type="checkbox" name="php" value="yes">PHP
+    </form>
+    <br>
+
+
+    <label class="text" for="userinput">How our site is:</label>
+    <select id="userinput" name="stars">
+      <option value="Greate">5</option>
+      <option value="Good">4</option>
+      <option value="Normal">3</option>
+      <option value="NotBad">2</option>
+      <option value="Bad">1</option>
+    </select>
+    <br>
+    <textarea name="name" rows="1" cols="30"
+    placeholder="leave a comment..."></textarea>
+    <br>
+
+
+    <form class="text">
+      <p>Choose one of the variants:</p>
+      <input name="disc" type="radio" value="cd" checked> CD
+      <input name="disc" type="radio" value="dvd"> DVD
+    </form>
+    <br>
+
+
+    <form class="text" id="login">
+      <p>Please input your email and password:</p>
+      <input type="email" name="useremail" placeholder="Email adress"><br>
+      <input type= "password" name="password" placeholder="Password" required> <br>
+      <input type="submit" name="" value="Submit">
+    </form>
+    <br>
+
+
+
+  </body>
+</html>
